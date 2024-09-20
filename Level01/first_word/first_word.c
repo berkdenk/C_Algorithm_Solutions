@@ -2,7 +2,7 @@ int main(int ac,char **av)
 {
     if(ac == 2)
     {
-        while(*av[1] && (*av[1] == ' ' || *av[1] == '\t'))
+        while(*av[1] && (*av[1] == ' ' || *av[1] == '\t')) //Basindaki boslugu atla
         {
             ++av[1];
         }
